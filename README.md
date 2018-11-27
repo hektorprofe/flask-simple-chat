@@ -3,7 +3,7 @@
 Clonado y modificado de https://github.com/samhita-alla/flask-chat-app-article 😁.
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ```

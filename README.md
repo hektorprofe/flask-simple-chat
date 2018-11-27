@@ -19,6 +19,11 @@ Requisitos:
 * Chocolatey
 * Cuenta en Heroku
 
+
+```
+choco install heroku-cli
+``````
+
 En el directorio de la app clonada con git:
 
 ```

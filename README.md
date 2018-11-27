@@ -33,6 +33,18 @@ heroku create
 heroku push heroku master
 ``````
 
-Y se abre la URL pero en versión http (no segura):
+Y se abre la URL que te dan, por ejemplo en mi caso:
 
-http://mysterious-refuge-34524.herokuapp.com/
+https://mysterious-refuge-34524.herokuapp.com/
+
+Para reiniciar la webapp en heroku:
+
+```
+heroku restart
+``````
+
+Y para consultar los logs si ha ocurrido algún fallo:
+
+```
+heroku logs
+``````

@@ -9,7 +9,7 @@ function special(str){
 }
 
 // definimos el socket
-var socket = io.connect('https://' + document.domain + ':' + location.port);
+var socket = io.connect('http://' + document.domain + ':' + location.port);
 
 socket.on( 'connect', function() {  //  conectamos el socket
     socket.emit( 'my event', {  // emitimos señal de nueva conexión

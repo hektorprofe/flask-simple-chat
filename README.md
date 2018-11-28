@@ -27,6 +27,10 @@ choco install heroku-cli
 En el directorio de la app clonada con git:
 
 ```
+git init
+``````
+
+```
 heroku login
 ``````
 
@@ -35,7 +39,7 @@ heroku create
 ``````
 
 ```
-heroku push heroku master
+git push heroku master
 ``````
 
 Y se abre la URL que te dan, por ejemplo en mi caso:
@@ -48,8 +52,14 @@ Para reiniciar la webapp en heroku:
 heroku restart
 ``````
 
-Y para consultar los logs si ha ocurrido algún fallo:
+Para consultar los logs si ha ocurrido algún fallo:
 
 ```
 heroku logs
-``````
+```
+
+Y para ejecutar comandos en el server:
+
+```
+heroku run <comando>
+```

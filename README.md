@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ```
 python server.py
-``````
+```
 
 Abrir http://localhost:5000 y poco más.
 
@@ -22,17 +22,17 @@ Requisitos:
 
 ```
 choco install heroku-cli
-``````
+```
 
 En el directorio de la app clonada con git:
 
 ```
 git init
-``````
+```
 
 ```
 heroku login
-``````
+```
 
 ```
 heroku create
@@ -40,7 +40,7 @@ heroku create
 
 ```
 git push heroku master
-``````
+```
 
 Y se abre la URL que te dan, por ejemplo en mi caso:
 
@@ -50,7 +50,7 @@ Para reiniciar la webapp en heroku:
 
 ```
 heroku restart
-``````
+```
 
 Para consultar los logs si ha ocurrido algún fallo:
 
